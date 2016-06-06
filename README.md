@@ -57,4 +57,6 @@ The distance between the plane, computed from the 10 points, and the origin is e
     
     The height of the camera is: -0.759828
 
-Model inliers correspond to the points of the plane model found
+Model coefficients are the estimated plane parameters (a.x + b.y + c.z + d = 0 form)
+
+Model inliers correspond to the points of the plane model found. In our case it shows 10 which means that all the points that has been selected are in the plane segmentated.
