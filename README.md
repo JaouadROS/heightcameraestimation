@@ -4,7 +4,7 @@ Estimate the height of the camera using only depth information.
 This package has been tested using:
 
 *  Kinect1
-*  Asus Xtion Pro Live sensors 
+*  Asus Xtion Pro Live 
 *  ROS Indigo
 *  Ubuntu 14.04
 
