@@ -1,7 +1,12 @@
 # heightcameraestimation
 Estimate the height of the camera using only depth information. 
 
-In this package we'll be using the Kinect1 and Asus Xtion Pro Live sensors 
+This package has been tested using:
+
+*  Kinect1
+*  Asus Xtion Pro Live sensors 
+*  ROS Indigo
+*  Ubuntu 14.04
 
 The first step is to choose 10 points from the ground or from any plane in the scene, then those points are transfomed into points cloud (x,y,z) using the intrinsic parameters of the camera (The parameters used in this package are for the Kinect1). 
 
