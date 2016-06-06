@@ -1,5 +1,5 @@
 # heightcameraestimation
-Estimate the height of the camera using only depth information. In this package we'll be using the Kinect sensor
+Estimate the height of the camera using only depth information. In this package we'll be using the Kinect and Asus sensors
 
 The first step is to choose 10 points from the ground or from any plane in the scene, then those points are transfomed into points cloud (x,y,z) using the intrinsic parameters of the camera. 
 
@@ -21,7 +21,13 @@ To use this package, clone the repository to your disc and build it:
 
 Open a new shell and start the Openni driver or freenect driver:
 
-    roslaunch freenect_launch freenect.launch
+Kinect:
+
+        roslaunch freenect_launch freenect.launch
+
+Asus:
+
+        roslaunch openni2_launch openni2.launch
 
 Open a new shell and run subKinect node:
 
