@@ -12,7 +12,7 @@
 * \date Date of creation: 06.06.2016
 *
 * \brief
-* Estimate the heigh of the depth camera
+* Estimate the height of the depth camera
 *****************************************************************/
 
 #include <ros/ros.h>
