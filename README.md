@@ -1,5 +1,7 @@
 # heightcameraestimation
-Estimate the height of the camera using only depth information. In this package we'll be using the Kinect and Asus sensors
+Estimate the height of the camera using only depth information. 
+
+In this package we'll be using the Kinect and Asus sensors
 
 The first step is to choose 10 points from the ground or from any plane in the scene, then those points are transfomed into points cloud (x,y,z) using the intrinsic parameters of the camera. 
 
