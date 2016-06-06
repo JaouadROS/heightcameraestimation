@@ -25,11 +25,11 @@ Open a new shell and start the Openni driver or freenect driver:
 
 Kinect:
 
-        roslaunch freenect_launch freenect.launch
+     $ roslaunch freenect_launch freenect.launch
 
 Asus:
 
-        roslaunch openni2_launch openni2.launch
+     $ roslaunch openni2_launch openni2.launch
 
 Open a new shell and run subKinect node:
 
@@ -56,3 +56,5 @@ The distance between the plane, computed from the 10 points, and the origin is e
     9    0.0214014 -0.492484 1.413
     
     The height of the camera is: -0.759828
+
+Model inliers correspond as the points of the plane model found
