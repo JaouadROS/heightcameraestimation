@@ -7,7 +7,7 @@ The first step is to choose 10 points from the ground or from any plane in the s
 
 Once we get our 3d points, we will use the RANSAC method (pcl::SAC_RANSAC) for plane segmentation.
 
-Finally wthe height of the camera correponds to the orthogonal distance between that plane and the point (0,0,0) which is the postion of the camera.
+Finally the height of the camera correponds to the orthogonal distance between that plane and the point (0,0,0) which is the postion of the camera.
 
 
 Quick Start:
