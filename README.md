@@ -57,4 +57,4 @@ The distance between the plane, computed from the 10 points, and the origin is e
     
     The height of the camera is: -0.759828
 
-Model inliers correspond as the points of the plane model found
+Model inliers correspond to the points of the plane model found
