@@ -5,7 +5,7 @@ Estimate the height of the depth camera: Kinect Asus..etc
 Quick Start:
 ===============
 
-To use this package clone the repository to your disc and build it:
+To use this package, clone the repository to your disc and build it:
 
     $ cd catkin_ws/src 
     $ git clone https://github.com/JaouadROS/heightcameraestimation
