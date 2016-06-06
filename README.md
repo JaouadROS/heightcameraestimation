@@ -1,5 +1,5 @@
 # heightcameraestimation
-Estimate the heigh of the depth camera: Kinect Asus..etc
+Estimate the height of the depth camera: Kinect Asus..etc
 
 
 Quick Start:
