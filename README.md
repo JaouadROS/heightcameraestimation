@@ -40,7 +40,7 @@ Open a new shell and run subKinect node:
 
 Select 10 points in the image. 
 
-The distance between the plane, computed from the 10 points, and the origin is estimated:
+The distance between the plane, estimated from the 10 points, and the origin is computed:
 
     Model coefficients: 0.0210965 -0.980173 0.197017 -0.759828
     Model inliers: 10
