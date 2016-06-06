@@ -45,7 +45,7 @@ Open a new shell and run subKinect node:
 
 Select 10 points in the image. 
 
-The distance between the plane, estimated from the 10 points, and the origin is computed:
+The distance between the plane, estimated from the 10 points, and the origin is computed :+1: 
 
     Model coefficients: 0.0210965 -0.980173 0.197017 -0.759828
     Model inliers: 10
@@ -60,7 +60,7 @@ The distance between the plane, estimated from the 10 points, and the origin is 
     8    -0.0557711 -0.440154 1.657
     9    0.0214014 -0.492484 1.413
     
-    The height of the camera is: -0.759828 :+1:
+    The height of the camera is: -0.759828 
 
 Model coefficients are the estimated plane parameters (a.x + b.y + c.z + d = 0 form)
 
