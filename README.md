@@ -1,5 +1,11 @@
 # heightcameraestimation
-Estimate the height of the depth camera: Kinect Asus..etc
+Estimate the height of the camera using only depth information. In this package we'll be using the Kinect sensor
+
+The first step is to choose 10 points from the ground or from any plane in the scene, then those points are transfomed into points cloud (x,y,z) using the intrinsic parameters of the camera. 
+
+Once we get our 3d points, we will use the RANSAC method (pcl::SAC_RANSAC) for plane segmentation.
+
+Finally wthe height of the camera correponds to the orthogonal distance between that plane and the point (0,0,0) which is the postion of the camera.
 
 
 Quick Start:
