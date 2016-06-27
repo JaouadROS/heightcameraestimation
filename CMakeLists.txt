@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(heightcameraestimation)
+project(height_camera_estimation)
 
 set(catkin_RUN_PACKAGES
   pcl_ros
@@ -20,24 +20,29 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 include_directories(
+	include
   ${OpenCV_INCLUDE_DIRS}
   ${catkin_INCLUDE_DIRS}
   ${PCL_INCLUDE_DIRS}
 )
 
+
 catkin_package(
+   INCLUDE_DIRS include
    LIBRARIES
-   CATKIN_DEPENDS roscpp std_msgs pcl_ros pcl_conversions pcl_msgs#actionlib_msgs actionlib
+   CATKIN_DEPENDS roscpp std_msgs pcl_ros pcl_conversions pcl_msgs
    DEPENDS PCL
-
 )
 
-add_executable(subKinect
-  src/subKinect.cpp
+
+add_executable(camera_height
+  src/Camera_Height.cpp
+  src/Camera_Height_main.cpp
 )
-target_link_libraries(subKinect
+target_link_libraries(camera_height
   ${catkin_LIBRARIES}
   ${OpenCV_LIBRARIES}
   ${PCL_LIBRARIES}
 )
+
 
