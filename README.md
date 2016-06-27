@@ -1,4 +1,4 @@
-# heightcameraestimation
+# height_camera_estimation
 Estimate the height of the camera using only depth information. 
 
 This package has been tested using:
@@ -38,7 +38,7 @@ Asus:
 
 Open a new shell and run subKinect node:
 
-    $ rosrun heightcameraestimation subKinect 
+    $ rosrun height_camera_estimation camera_height 
 ```sh
         [ INFO] [1465204785.331114944]: Estimate the height of the camera
 ```
@@ -60,7 +60,7 @@ The distance between the plane, estimated from the 10 points, and the origin is 
     8    -0.0557711 -0.440154 1.657
     9    0.0214014 -0.492484 1.413
     
-    The height of the camera is: -0.759828 
+    The height of the camera is: -0.759828 (m)
 
 Model coefficients are the estimated plane parameters (a.x + b.y + c.z + d = 0 form)
 
