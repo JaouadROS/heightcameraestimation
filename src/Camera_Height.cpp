@@ -43,10 +43,6 @@ CameraHeight::CameraHeight(const std::string &winname, const cv::Mat depth_clean
   px_ = 320,
   py_ = 240;
 
-  //i_mouse=0;
-
-  //cloud_pointsplane.reset(new pcl::PointCloud<pcl::PointXYZ>);
-
   cv::namedWindow(m_winname_);
   cv::setMouseCallback(m_winname_, &CameraHeight::onMouse, this);
 }
